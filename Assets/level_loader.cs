@@ -16,7 +16,7 @@ public class level_loader : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            LoadNextLevel();
+            LoadNextLevel();    
         }
     }
 
