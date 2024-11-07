@@ -3,23 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class Radio_hover : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+public class hover : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
-    public GameObject Pre;
     
+    public GameObject radio;
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        Pre.SetActive(true);
-
-        
+        radio.SetActive(true);
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        Pre.SetActive(false);
-        
-        
+        radio.SetActive(false);
     }
-    
+
 }
