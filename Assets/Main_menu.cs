@@ -8,20 +8,24 @@ public class Main_menu : MonoBehaviour
 {
 
     public Animator transition;
-
     public float transitionTime = 1f;
 
-    public void playGame()
+    public void PlayGame()
     {
-        SceneManager.LoadSceneAsync(1);
+        
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void quitGame()
+    {
+       
+        Application.Quit();
     }
 
     IEnumerator LoadScene(int levelIndex)
     {
         transition.SetTrigger("Start");
-
         yield return new WaitForSeconds(transitionTime);
-
         SceneManager.LoadScene(levelIndex);
     }
 }
