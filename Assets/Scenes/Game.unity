@@ -855,11 +855,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8012584161658668126, guid: fa34359ab092f4642b2d9d813726dbe0, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -3
+      value: -3.1940002
       objectReference: {fileID: 0}
     - target: {fileID: 8012584161658668126, guid: fa34359ab092f4642b2d9d813726dbe0, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -2
+      value: -1.9450073
       objectReference: {fileID: 0}
     - target: {fileID: 8012584162719758206, guid: fa34359ab092f4642b2d9d813726dbe0, type: 3}
       propertyPath: m_RootOrder
